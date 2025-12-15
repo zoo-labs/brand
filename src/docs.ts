@@ -1,6 +1,6 @@
 /**
  * Documentation theme configuration for Fumadocs
- * Zoo brand - Nature/Science theme with green accent
+ * Zoo brand - Pure monochrome, Vercel/Linear style
  */
 
 import { colors } from './colors'
@@ -39,47 +39,47 @@ export interface DocsTheme {
 }
 
 /**
- * Light mode variables - Clean white with green accent
+ * Light mode - Pure white, clean outlines
  */
 export const lightDocsVariables: DocsThemeVariables = {
   '--color-fd-background': 'hsl(0, 0%, 100%)',
-  '--color-fd-foreground': 'hsl(0, 0%, 4%)',
+  '--color-fd-foreground': 'hsl(0, 0%, 9%)',
   '--color-fd-muted': 'hsl(0, 0%, 96%)',
   '--color-fd-muted-foreground': 'hsl(0, 0%, 45%)',
   '--color-fd-popover': 'hsl(0, 0%, 100%)',
-  '--color-fd-popover-foreground': 'hsl(0, 0%, 4%)',
+  '--color-fd-popover-foreground': 'hsl(0, 0%, 9%)',
   '--color-fd-card': 'hsl(0, 0%, 100%)',
-  '--color-fd-card-foreground': 'hsl(0, 0%, 4%)',
+  '--color-fd-card-foreground': 'hsl(0, 0%, 9%)',
   '--color-fd-border': 'hsl(0, 0%, 90%)',
-  '--color-fd-primary': 'hsl(160, 84%, 39%)',       // Green #10B981
+  '--color-fd-primary': 'hsl(0, 0%, 9%)',
   '--color-fd-primary-foreground': 'hsl(0, 0%, 100%)',
   '--color-fd-secondary': 'hsl(0, 0%, 96%)',
-  '--color-fd-secondary-foreground': 'hsl(0, 0%, 4%)',
-  '--color-fd-accent': 'hsl(160, 84%, 95%)',        // Light green tint
-  '--color-fd-accent-foreground': 'hsl(160, 84%, 30%)',
-  '--color-fd-ring': 'hsl(160, 84%, 39%)',
+  '--color-fd-secondary-foreground': 'hsl(0, 0%, 9%)',
+  '--color-fd-accent': 'hsl(0, 0%, 96%)',
+  '--color-fd-accent-foreground': 'hsl(0, 0%, 9%)',
+  '--color-fd-ring': 'hsl(0, 0%, 64%)',
 }
 
 /**
- * Dark mode variables - Near-black with green accent
+ * Dark mode - Pure black, white accent
  */
 export const darkDocsVariables: DocsThemeVariables = {
-  '--color-fd-background': 'hsl(0, 0%, 4%)',        // #0A0A0B
+  '--color-fd-background': 'hsl(0, 0%, 0%)',
   '--color-fd-foreground': 'hsl(0, 0%, 98%)',
-  '--color-fd-muted': 'hsl(0, 0%, 9%)',             // #171717
-  '--color-fd-muted-foreground': 'hsl(0, 0%, 60%)',
-  '--color-fd-popover': 'hsl(0, 0%, 7%)',
+  '--color-fd-muted': 'hsl(0, 0%, 8%)',
+  '--color-fd-muted-foreground': 'hsl(0, 0%, 55%)',
+  '--color-fd-popover': 'hsl(0, 0%, 4%)',
   '--color-fd-popover-foreground': 'hsl(0, 0%, 98%)',
-  '--color-fd-card': 'hsl(0, 0%, 7%)',
+  '--color-fd-card': 'hsl(0, 0%, 4%)',
   '--color-fd-card-foreground': 'hsl(0, 0%, 98%)',
   '--color-fd-border': 'hsl(0, 0%, 15%)',
-  '--color-fd-primary': 'hsl(160, 84%, 45%)',       // Brighter green for dark mode
+  '--color-fd-primary': 'hsl(0, 0%, 98%)',
   '--color-fd-primary-foreground': 'hsl(0, 0%, 4%)',
-  '--color-fd-secondary': 'hsl(0, 0%, 12%)',
+  '--color-fd-secondary': 'hsl(0, 0%, 10%)',
   '--color-fd-secondary-foreground': 'hsl(0, 0%, 98%)',
-  '--color-fd-accent': 'hsl(160, 84%, 12%)',        // Dark green tint
-  '--color-fd-accent-foreground': 'hsl(160, 84%, 60%)',
-  '--color-fd-ring': 'hsl(160, 84%, 40%)',
+  '--color-fd-accent': 'hsl(0, 0%, 12%)',
+  '--color-fd-accent-foreground': 'hsl(0, 0%, 98%)',
+  '--color-fd-ring': 'hsl(0, 0%, 36%)',
 }
 
 /**
@@ -94,55 +94,45 @@ function generateCSS(light: DocsThemeVariables, dark: DocsThemeVariables): strin
     .map(([key, value]) => `  ${key}: ${value};`)
     .join('\n')
 
-  return `/* Zoo Documentation Theme - Nature/Science with Green Accent */
+  return `/* Zoo Documentation Theme - Pure Monochrome */
 :root {
 ${lightVars}
 
-  /* Brand colors */
-  --color-brand: hsl(160, 84%, 39%);
-  --color-brand-foreground: white;
-
-  /* Layout */
   --background: hsl(0, 0%, 100%);
-  --foreground: hsl(0, 0%, 4%);
+  --foreground: hsl(0, 0%, 9%);
   --muted: hsl(0, 0%, 96%);
   --muted-foreground: hsl(0, 0%, 45%);
   --border: hsl(0, 0%, 90%);
-  --sidebar: hsl(0, 0%, 98%);
+  --ring: hsl(0, 0%, 64%);
 }
 
 .dark {
 ${darkVars}
 
-  /* Brand colors */
-  --color-brand: hsl(160, 84%, 45%);
-  --color-brand-foreground: hsl(0, 0%, 4%);
-
-  /* Layout */
-  --background: hsl(0, 0%, 4%);
+  --background: hsl(0, 0%, 0%);
   --foreground: hsl(0, 0%, 98%);
-  --muted: hsl(0, 0%, 9%);
-  --muted-foreground: hsl(0, 0%, 60%);
+  --muted: hsl(0, 0%, 8%);
+  --muted-foreground: hsl(0, 0%, 55%);
   --border: hsl(0, 0%, 15%);
-  --sidebar: hsl(0, 0%, 4%);
+  --ring: hsl(0, 0%, 36%);
 }
 `
 }
 
 /**
  * Zoo Documentation Theme
- * Nature/Science theme with green accent
+ * Pure monochrome - Vercel/Linear style
  */
 export const zooDocsTheme: DocsTheme = {
   name: 'zoo',
-  description: 'Nature/Science theme with green accent for Zoo documentation',
+  description: 'Pure monochrome theme for Zoo documentation',
   light: lightDocsVariables,
   dark: darkDocsVariables,
   css: generateCSS(lightDocsVariables, darkDocsVariables),
 }
 
 /**
- * Get CSS variables as a style object (for inline styles)
+ * Get CSS variables as a style object
  */
 export function getDocsStyleObject(mode: 'light' | 'dark' = 'light'): Record<string, string> {
   return mode === 'dark' ? darkDocsVariables : lightDocsVariables
