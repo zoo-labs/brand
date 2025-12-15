@@ -1,0 +1,66 @@
+/* Zoo Labs Foundation Documentation Theme - Emerald Green */
+:root {
+  --color-fd-background: hsl(0, 0%, 100%);
+  --color-fd-foreground: hsl(150, 30%, 10%);
+  --color-fd-muted: hsl(150, 10%, 96%);
+  --color-fd-muted-foreground: hsl(150, 10%, 45%);
+  --color-fd-popover: hsl(0, 0%, 100%);
+  --color-fd-popover-foreground: hsl(150, 30%, 10%);
+  --color-fd-card: hsl(0, 0%, 100%);
+  --color-fd-card-foreground: hsl(150, 30%, 10%);
+  --color-fd-border: hsl(150, 10%, 90%);
+  --color-fd-primary: hsl(145, 63%, 42%);
+  --color-fd-primary-foreground: hsl(0, 0%, 100%);
+  --color-fd-secondary: hsl(150, 10%, 96%);
+  --color-fd-secondary-foreground: hsl(150, 30%, 10%);
+  --color-fd-accent: hsl(145, 50%, 94%);
+  --color-fd-accent-foreground: hsl(145, 63%, 32%);
+  --color-fd-ring: hsl(145, 63%, 42%);
+
+  /* Brand colors - Emerald */
+  --color-brand: hsl(145, 63%, 42%);
+  --color-brand-foreground: white;
+  --color-brand-secondary: hsl(43, 89%, 50%);
+  --color-brand-accent: hsl(155, 70%, 45%);
+
+  /* Layout */
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(150, 30%, 10%);
+  --muted: hsl(150, 10%, 96%);
+  --muted-foreground: hsl(150, 10%, 45%);
+  --border: hsl(150, 10%, 90%);
+  --sidebar: hsl(150, 10%, 98%);
+}
+
+.dark {
+  --color-fd-background: hsl(150, 20%, 4%);
+  --color-fd-foreground: hsl(150, 10%, 95%);
+  --color-fd-muted: hsl(150, 15%, 10%);
+  --color-fd-muted-foreground: hsl(150, 10%, 55%);
+  --color-fd-popover: hsl(150, 20%, 6%);
+  --color-fd-popover-foreground: hsl(150, 10%, 95%);
+  --color-fd-card: hsl(150, 20%, 6%);
+  --color-fd-card-foreground: hsl(150, 10%, 95%);
+  --color-fd-border: hsl(150, 15%, 15%);
+  --color-fd-primary: hsl(145, 70%, 55%);
+  --color-fd-primary-foreground: hsl(150, 30%, 5%);
+  --color-fd-secondary: hsl(150, 15%, 12%);
+  --color-fd-secondary-foreground: hsl(150, 10%, 95%);
+  --color-fd-accent: hsl(145, 40%, 15%);
+  --color-fd-accent-foreground: hsl(145, 70%, 65%);
+  --color-fd-ring: hsl(145, 70%, 55%);
+
+  /* Brand colors - Emerald */
+  --color-brand: hsl(145, 70%, 55%);
+  --color-brand-foreground: hsl(150, 30%, 5%);
+  --color-brand-secondary: hsl(43, 89%, 60%);
+  --color-brand-accent: hsl(155, 70%, 55%);
+
+  /* Layout */
+  --background: hsl(150, 20%, 4%);
+  --foreground: hsl(150, 10%, 95%);
+  --muted: hsl(150, 15%, 10%);
+  --muted-foreground: hsl(150, 10%, 55%);
+  --border: hsl(150, 15%, 15%);
+  --sidebar: hsl(150, 20%, 4%);
+}
