@@ -1,0 +1,21 @@
+{
+  "landing.hero.title":        "Trade ZOO and every token on Zoo Network",
+  "landing.hero.subtitle":     "Fast, native, regulated.",
+  "landing.hero.cta.swap":     "Start trading",
+  "landing.hero.cta.learn":    "Learn more",
+  "landing.features.title":    "Built on Zoo",
+  "swap.title":                "Swap",
+  "swap.cta":                  "Swap on Zoo",
+  "swap.footer.disclosure":    "Regulated securities trade via the Alpaca provider gate.",
+  "pool.title":                "Pools",
+  "pool.cta":                  "Earn with ZOO liquidity",
+  "portfolio.title":           "Your portfolio",
+  "portfolio.empty":           "No positions yet — start by swapping ZOO.",
+  "activity.title":            "Activity",
+  "nav.swap":                  "Swap",
+  "nav.pool":                  "Pool",
+  "nav.portfolio":             "Portfolio",
+  "footer.copyright":          "© {year} Zoo Labs Foundation",
+  "footer.terms":               "Terms",
+  "footer.privacy":             "Privacy"
+}

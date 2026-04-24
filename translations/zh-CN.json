@@ -1,0 +1,21 @@
+{
+  "landing.hero.title":        "在 Zoo Network 上交易 ZOO 及所有代币",
+  "landing.hero.subtitle":     "快速、原生、合规。",
+  "landing.hero.cta.swap":     "开始交易",
+  "landing.hero.cta.learn":    "了解更多",
+  "landing.features.title":    "基于 Zoo 构建",
+  "swap.title":                "兑换",
+  "swap.cta":                  "在 Zoo 上兑换",
+  "swap.footer.disclosure":    "受监管证券通过 Alpaca 提供者网关交易。",
+  "pool.title":                "流动性池",
+  "pool.cta":                  "通过 ZOO 流动性赚取收益",
+  "portfolio.title":           "我的资产",
+  "portfolio.empty":           "暂无持仓 — 从兑换 ZOO 开始。",
+  "activity.title":            "活动",
+  "nav.swap":                  "兑换",
+  "nav.pool":                  "流动性",
+  "nav.portfolio":             "资产",
+  "footer.copyright":          "© {year} Zoo Labs Foundation",
+  "footer.terms":              "条款",
+  "footer.privacy":            "隐私"
+}

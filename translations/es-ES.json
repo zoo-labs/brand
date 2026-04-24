@@ -1,0 +1,21 @@
+{
+  "landing.hero.title":        "Intercambia ZOO y cualquier token en Zoo Network",
+  "landing.hero.subtitle":     "Rápido, nativo, regulado.",
+  "landing.hero.cta.swap":     "Comenzar a operar",
+  "landing.hero.cta.learn":    "Más información",
+  "landing.features.title":    "Construido sobre Zoo",
+  "swap.title":                "Intercambiar",
+  "swap.cta":                  "Intercambiar en Zoo",
+  "swap.footer.disclosure":    "Los valores regulados se negocian a través de Alpaca.",
+  "pool.title":                "Pools",
+  "pool.cta":                  "Gana con liquidez ZOO",
+  "portfolio.title":           "Tu cartera",
+  "portfolio.empty":           "Aún no hay posiciones — empieza intercambiando ZOO.",
+  "activity.title":            "Actividad",
+  "nav.swap":                  "Intercambiar",
+  "nav.pool":                  "Pool",
+  "nav.portfolio":             "Cartera",
+  "footer.copyright":          "© {year} Zoo Labs Foundation",
+  "footer.terms":              "Términos",
+  "footer.privacy":            "Privacidad"
+}
