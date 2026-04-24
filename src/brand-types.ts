@@ -1,12 +1,11 @@
 /**
- * Brand configuration types for white-label exchange deployments.
+ * Brand configuration types for Zoo deployments.
  * These types define the shape of brand.json — the single source of truth
- * for all branding, theming, chain config, and service endpoints.
+ * for Zoo branding, theming, and service endpoints.
  *
  * Used by:
- * - @luxfi/brand and @zooai/brand (brand packages)
- * - @l.x/config in the exchange app (runtime consumer)
- * - K8s ConfigMaps (generated from brand.json)
+ * - @zooai/brand (this package)
+ * - Runtime consumers in Zoo apps
  */
 
 /** Theme color overrides for a single color scheme (light or dark).
