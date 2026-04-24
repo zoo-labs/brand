@@ -18,16 +18,16 @@
     "termsUrl": "https://zoo.exchange/terms",
     "privacyUrl": "https://zoo.exchange/privacy",
     "downloadUrl": "https://zoo.exchange/wallet",
-    "complianceEmail": "compliance@zoo.ngo",
-    "supportEmail": "hi@zoo.ngo",
-    "twitter": "https://x.com/zoo_ngo",
+    "complianceEmail": "compliance@zoo.exchange",
+    "supportEmail": "hi@zoo.exchange",
+    "twitter": "https://x.com/zoo_labs",
     "farcaster": "",
     "linkedin": "",
     "tiktok": "",
-    "github": "https://github.com/zoo-labs",
+    "github": "https://github.com/zooai",
     "discord": "https://discord.gg/zoo",
-    "logoUrl": "https://cdn.jsdelivr.net/npm/@zooai/brand@latest/assets/logo/logo.svg",
-    "faviconUrl": "https://cdn.jsdelivr.net/npm/@zooai/brand@latest/assets/logo/favicon.png",
+    "logoUrl": "/logo.svg",
+    "faviconUrl": "/favicon.svg",
     "primaryColor": "#000000",
     "theme": {
       "light": {
@@ -44,11 +44,25 @@
         "neutral1": "#FFFFFF",
         "neutral2": "rgba(255, 255, 255, 0.65)"
       }
-    }
+    },
+    "defaultChainId": 200200,
+    "supportedChainIds": [
+      200200,
+      200201
+    ]
   },
   "chains": {
     "defaultChainId": 200200,
-    "supported": [200200, 200201, 96369, 1, 42161, 8453, 137, 43114]
+    "supported": [
+      200200,
+      200201,
+      96369,
+      1,
+      42161,
+      8453,
+      137,
+      43114
+    ]
   },
   "rpc": {
     "200200": "https://api.zoo.network/ext/bc/C/rpc",
@@ -71,5 +85,14 @@
   },
   "walletConnect": {
     "projectId": ""
+  },
+  "auth": {
+    "provider": "iam",
+    "issuer": "https://iam.zoo.network",
+    "clientId": "zoo-exchange",
+    "idHost": "https://zoolabs.id"
+  },
+  "kms": {
+    "url": "https://kms.zoo.network"
   }
 }
