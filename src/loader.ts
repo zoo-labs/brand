@@ -1,13 +1,13 @@
-import type { BrandConfig, BrandTheme, RuntimeConfig } from './brand-types'
+import type { BrandConfig, RuntimeConfig } from './brand-types'
 
 /**
  * Mutable brand singleton — populated by loadBrand() from /brand.json.
  * Import this in your app to read brand values after loading.
  *
- * Usage (in any Lux/Zoo app — exchange, bridge, explorer, wallet):
- *   import { brand, loadBrand } from '@luxfi/brand/loader'
+ * Usage (in any Zoo app — exchange, bridge, explorer, wallet):
+ *   import { brand, loadBrand } from '@zooai/brand/loader'
  *   await loadBrand()
- *   console.log(brand.name) // "Lux Exchange"
+ *   console.log(brand.name) // "Zoo"
  */
 export const brand: BrandConfig = {
   name: '',

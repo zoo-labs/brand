@@ -12,6 +12,8 @@
     "appDomain": "zoo.exchange",
     "docsDomain": "docs.zoo.exchange",
     "infoDomain": "info.zoo.exchange",
+    "gatewayDomain": "api.zoo.network",
+    "wsDomain": "ws.zoo.network",
     "helpUrl": "https://docs.zoo.exchange/help",
     "termsUrl": "https://zoo.exchange/terms",
     "privacyUrl": "https://zoo.exchange/privacy",
@@ -24,24 +26,76 @@
     "tiktok": "",
     "github": "https://github.com/zooai",
     "discord": "https://discord.gg/edmZPTZjH9",
-    "logoUrl": "/logo.svg",
-    "faviconUrl": "/favicon.svg",
-    "primaryColor": "#000000",
+    "logoUrl": "https://cdn.jsdelivr.net/npm/@zooai/brand@latest/assets/logo/logo.svg",
+    "faviconUrl": "https://cdn.jsdelivr.net/npm/@zooai/brand@latest/assets/favicon/favicon.svg",
+    "wordmarkUrl": "https://cdn.jsdelivr.net/npm/@zooai/brand@latest/assets/wordmark/wordmark.svg",
+    "primaryColor": "#FCF006",
+    "palette": {
+      "yellow": "#FCF006",
+      "magenta": "#EA018E",
+      "cyan": "#01ACF1",
+      "green": "#00A652",
+      "red": "#ED1C24",
+      "blue": "#2E3192"
+    },
     "theme": {
       "light": {
-        "accent1": "#000000",
+        "accent1": "#EA018E",
+        "accent2": "#01ACF1",
+        "accent3": "#FCF006",
         "surface1": "#FFFFFF",
-        "surface2": "#F9F9F9",
-        "neutral1": "#131313",
-        "neutral2": "rgba(19, 19, 19, 0.63)"
+        "surface2": "#FAFAFA",
+        "surface3": "#F5F5F5",
+        "neutral1": "#0A0A0B",
+        "neutral2": "rgba(10, 10, 11, 0.65)",
+        "neutral3": "rgba(10, 10, 11, 0.45)",
+        "border": "#E5E5E5",
+        "success": "#00A652",
+        "warning": "#FCF006",
+        "error": "#ED1C24"
       },
       "dark": {
-        "accent1": "#FFFFFF",
-        "surface1": "#000000",
-        "surface2": "#1A1A1A",
+        "accent1": "#EA018E",
+        "accent2": "#01ACF1",
+        "accent3": "#FCF006",
+        "surface1": "#0A0A0B",
+        "surface2": "#171717",
+        "surface3": "#262626",
         "neutral1": "#FFFFFF",
-        "neutral2": "rgba(255, 255, 255, 0.65)"
+        "neutral2": "rgba(255, 255, 255, 0.65)",
+        "neutral3": "rgba(255, 255, 255, 0.45)",
+        "border": "#262626",
+        "success": "#00A652",
+        "warning": "#FCF006",
+        "error": "#ED1C24"
       }
     }
+  },
+  "chains": {
+    "defaultChainId": 200200,
+    "supported": [200200, 200201, 200202, 96369, 1, 42161, 8453, 137, 43114]
+  },
+  "rpc": {
+    "200200": "https://api.zoo.network/rpc",
+    "200201": "https://api.zoo-test.network/rpc",
+    "200202": "https://api.zoo-dev.network/rpc",
+    "96369": "https://api.lux.network/ext/bc/C/rpc",
+    "1": "https://eth.llamarpc.com",
+    "42161": "https://arb1.arbitrum.io/rpc",
+    "8453": "https://mainnet.base.org",
+    "137": "https://polygon-rpc.com",
+    "43114": "https://api.avax.network/ext/bc/C/rpc"
+  },
+  "api": {
+    "graphql": "https://api.zoo.network/v1/graphql",
+    "gateway": "https://api.zoo.network",
+    "insights": "https://insights.hanzo.ai"
+  },
+  "iam": {
+    "provider": "https://iam.zoo.network",
+    "clientId": "zoo-exchange"
+  },
+  "walletConnect": {
+    "projectId": ""
   }
 }
